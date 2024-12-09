@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style wow -->
+     <link rel="stylesheet" href="css/wow.css">
+    <!-- style animate -->
+     <link rel="stylesheet" href="css/animate.min.css">
+    <!-- style fontawesome -->
+     <link rel="stylesheet" href="css/all.min.css">
+    <!-- style Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style mdbootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- style css -->
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- The Date -->
+<h2>The Light Bulb</h2>
+<button onclick="document.getElementById('result').innerHTML=Date()">Show</button>
+<h4 id="result"></h4>
+
+<!-- The Bulb Light -->
+<button onclick="document.getElementById('the imge').src='img/pic_bulbon.gif'">Turn on the light</button>
+<img src="img/pic_bulboff.gif" id="the imge">
+
+<button onclick="document.getElementById('the imge').src='img/pic_bulboff.gif'">Turn off the light</button>
+
+   <!-- start wow js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+   <!-- end wow js -->
+
+   <!-- start fontawesome -->
+    <script src="js/all.min.js"></script>
+   <!-- start Jquery -->
+    <script src="js/jquery.slim.min.js"></script>
+   <!-- start popper -->
+    <script src="js/popper.min.js"></script>
+   <!-- start bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+   <!-- tart MDB js -->
+    <script src="js/mdb.umd.min.js"></script>
+    <!-- start main js -->
+     <script src="js/main.js"></script>
+    
+</body>
+</html>
